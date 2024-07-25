@@ -37,12 +37,12 @@ document.addEventListener('DOMContentLoaded', function() {
         yesMusic.play().catch(error => {
             console.log("Yes music play failed:", error);
         });
-        alert('Yay! I\'m so happy! This is the best day of my life');
+        alert('Enjoy the music');
     });
 
     noButton.addEventListener('click', function() {
         backgroundMusic.pause();
-        message.textContent = 'That\'s okie! i know your school i will just kidnap you';
+        message.textContent = 'This button doesnt do anything';
         message.style.animation = 'bounceIn 1s ease-in-out';
     });
 });
