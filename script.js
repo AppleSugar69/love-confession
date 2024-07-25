@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         buttonSound.play().catch(error => {
             console.log("Button sound play failed:", error);
         });
-        message.textContent = 'WOULD YOU PRETTY(YES YOU) PLEASE DATE ME??? (im BAIZHU and DELULU)';
+        message.textContent = 'I LOVE YOU AND FOREVER WOULD CHERISH YOU';
         message.classList.remove('hidden');
         responseButtons.classList.remove('hidden');
         message.style.animation = 'bounceIn 1s ease-in-out';
